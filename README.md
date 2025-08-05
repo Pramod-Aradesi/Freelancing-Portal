@@ -31,7 +31,19 @@ This Freelancing Portal allows:
 - 📊 Admin Panel (if applicable)
 - ⭐ratings 
 
----
+ **📚 Learnings**
+
+* Built an end-to-end dynamic website using PHP and MySQL
+* Handled user roles and sessions
+* Designed interactive frontend using HTML, CSS, and JavaScript
+
+
+
+**🚀 Future Improvements**
+
+* Add messaging/chat feature between users
+* Integrate payment gateway (like Razorpay or PayPal)
+* Enable project status tracking (in progress, completed)
 
 ## ⚙️ Setup Instructions
 
@@ -41,21 +53,21 @@ This Freelancing Portal allows:
    cd freelancing-portal
 ````
 
-2. **Set Up Local Server**
+2. Set Up Local Server
 
-   * Use [XAMPP](https://www.apachefriends.org/) to host the project.
-   * Place the project folder in the `htdocs` directory (`C:/xampp/htdocs`).
+   > Use [XAMPP](https://www.apachefriends.org/) to host the project.
+   > Place the project folder in the `htdocs` directory (`C:/xampp/htdocs`).
 
-3. **Create MySQL Database**
+3. Create MySQL Database
 
-   * Open `phpMyAdmin`
-   * Create a new database (e.g., `freelance_portal`)
-   * Import the provided SQL file (`database.sql` if available)
+   > Open `phpMyAdmin`
+   > Create a new database (e.g., `freelance_portal`)
+   > Import the provided SQL file (`database.sql` if available)
 
-4. **Update Database Credentials**
+4. Update Database Credentials
 
-   * Open `config.php` or wherever your DB connection is defined
-   * Update:
+   > Open `config.php` or wherever your DB connection is defined
+   > Update:
 
      ```php
      $host = "localhost";
@@ -64,26 +76,11 @@ This Freelancing Portal allows:
      $database = "freelance_portal";
      ```
 
-5. **Run the Project**
+5. Run the Project
 
-   * Start Apache and MySQL in XAMPP
-   * Visit `http://localhost/freelancing-portal/` in your browser.
+   > Start Apache and MySQL in XAMPP
+   > Visit `http://localhost/freelancing-portal/` in your browser.
 
-
-
-## 📚 Learnings
-
-* Built an end-to-end dynamic website using PHP and MySQL
-* Handled user roles and sessions
-* Designed interactive frontend using HTML, CSS, and JavaScript
-
-
-
-## 🚀 Future Improvements
-
-* Add messaging/chat feature between users
-* Integrate payment gateway (like Razorpay or PayPal)
-* Enable project status tracking (in progress, completed)
 
 
 > ⭐ If this project helped you or inspired you, please star the repository!
